@@ -43,6 +43,6 @@ public class Util
 
 	public static void print(int[] array) {
 		for(int val: array)
-			System.out.println(val);
+			System.out.print(val+" ");
 	}
 }
