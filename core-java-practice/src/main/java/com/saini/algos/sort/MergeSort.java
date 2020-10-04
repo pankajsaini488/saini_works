@@ -29,8 +29,8 @@ public class MergeSort {
 		performMerge(array, start, mid, end);
 		
 	}
-//in place
-//optimized
+	//not in place
+	//optimized
 	private static void performMerge(int[] array, int start, int mid, int end) {
 		
 		if(array[mid-1] < array[mid]) {
